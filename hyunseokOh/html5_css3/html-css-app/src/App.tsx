@@ -33,6 +33,18 @@ function App() {
           <li>순서가 있는 리스트 아이템 2</li>
           <li>순서가 있는 리스트 아이템 3</li>
         </ol>
+
+
+        {/* CSS 속성 적용 예시 */}
+        <div className="box">
+          <h2>CSS 속성 적용</h2>
+          <p>이 박스는 CSS로 스타일링 되었습니다.</p>
+
+          {/* 링크 태그는 a 태그로 정의됩니다. */}
+          <a href='https://www.w3schools.com/' target='_blank'>
+            W3Schools 방문하기
+          </a>
+        </div>
       </div>
     </>
     )
