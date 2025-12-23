@@ -11,11 +11,11 @@ function App() {
       <h4>First HTML5/CSS3</h4>
       <h5>First HTML5/CSS3</h5>
       <h6>First HTML5/CSS3</h6>
-    {/*주석*/}
-
       <p>단락 paragraph의 역할입니다.</p>
 
       {/* 리스트(list) */}
+
+
       <ul>
         <li>리스트 1</li>
         <li>리스트 2</li>
@@ -30,7 +30,14 @@ function App() {
         <li>리스트 4</li>
       </ol>
 
-
+      {/* a href 는 하이퍼링크 거는 부분 */}
+      <div className = "box">
+        <h2>CSS 속성 적용 </h2>
+        <p>CSS는 HTML 요소를 스타일링 하기 위한 목적으로 사용</p>
+        <a href ="https://www.w3schools.com/" target = "black">
+          HTML / CSS 학습 사이트
+        </a>
+      </div>
     </div>
     </>
   )

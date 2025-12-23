@@ -21,6 +21,13 @@ function App() {
            <li>리스트 2</li>
            <li>리스트 3</li>
         </ul>
+        <div className="box">
+          <h2>CSS 속성 적용</h2>
+          <p>CSS는  HYML요소를 스타일링 하기 위한 목적으로 사용</p>
+          <a href='https://www.w3schools.com/' target="_blank">
+            HTML / CSS 학습 사이트
+          </a>
+        </div>
       </div>
     </>
   )

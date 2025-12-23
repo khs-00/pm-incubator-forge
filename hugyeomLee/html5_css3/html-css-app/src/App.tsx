@@ -44,6 +44,17 @@ function App() {
           <li>리스트 3</li>
           <li>리스트 4</li>
         </ol>
+
+        {/* tailwindcss 같은 편리한 녀석들이 존재함 */}
+        {/* html / css를 알고 쓰는 것과 차이가 있긴함 */}
+        <div className="box">
+          <h2>CSS 속성 적용</h2>
+          <p>CSS는 HTML요소를 스타일링 하기 위한 목적으로 사용</p>
+
+          <a href='https://www.w3schools.com/' target="_blank">
+            HTML / CSS 학습 사이트
+          </a>
+        </div>
       </div>
     </>
   )
