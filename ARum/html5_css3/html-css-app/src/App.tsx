@@ -11,6 +11,8 @@ import { ControlFlowForSummationExample } from './control_flow/ControlFlowForSum
 import { SecondProblem } from './problem/SecondProblem.tsx'
 import { MapExample } from './map/MapExample.tsx'
 import { MapReduceExample } from './map/MapReduceExample.tsx'
+import { MapFilterExample } from './map/MapFilterExample.tsx'
+import { ArraySliceExample } from './array/ArraySliceExample.tsx'
 
 function App() {
 
@@ -34,6 +36,8 @@ function App() {
         <SecondProblem/>
         <MapExample/>
         <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
       </div>
     </>
   )
